@@ -64,10 +64,25 @@
   background-color: #f9f9f9;
 }
 
-img {
-  height: 200px;
-}
-
 .clear {
   clear: both;
+}
+
+/* gestione spazio immagini */
+
+img:not(#lezioni .right img) {
+  width: 80%;
+  max-width: 200px;
+}
+
+#lezioni .right img {
+  max-height: 180px;
+  width: auto;
+}
+
+/* gestione spaziature delle row */
+
+div,
+h1 {
+  margin-bottom: 5vh;
 }
