@@ -307,10 +307,6 @@ si intende mobile first < 576*/
 }
 
 @media screen and (min-width: 576px) {
-  body {
-    background: red;
-  }
-
   /* columns  */
 
   .col-sm-1 {
@@ -322,7 +318,7 @@ si intende mobile first < 576*/
   .col-sm-3 {
     width: 25%;
   }
-  .col-4 {
+  .col-sm-4 {
     width: calc((100% / 12) * 4);
   }
   .col-sm-5 {
@@ -390,10 +386,6 @@ si intende mobile first < 576*/
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    background: green;
-  }
-
   /* columns  */
 
   .col-md-1 {
@@ -405,7 +397,7 @@ si intende mobile first < 576*/
   .col-md-3 {
     width: 25%;
   }
-  .col-4 {
+  .col-md-4 {
     width: calc((100% / 12) * 4);
   }
   .col-md-5 {
@@ -473,10 +465,6 @@ si intende mobile first < 576*/
 }
 
 @media screen and (min-width: 992px) {
-  body {
-    background: green;
-  }
-
   /* columns  */
 
   .col-lg-1 {
@@ -488,7 +476,7 @@ si intende mobile first < 576*/
   .col-lg-3 {
     width: 25%;
   }
-  .col-4 {
+  .col-lg-4 {
     width: calc((100% / 12) * 4);
   }
   .col-lg-5 {
@@ -556,10 +544,6 @@ si intende mobile first < 576*/
 }
 
 @media screen and (min-width: 1200px) {
-  body {
-    background: yellow;
-  }
-
   /* columns  */
 
   .col-xl-1 {
@@ -571,7 +555,7 @@ si intende mobile first < 576*/
   .col-xl-3 {
     width: 25%;
   }
-  .col-4 {
+  .col-xl-4 {
     width: calc((100% / 12) * 4);
   }
   .col-xl-5 {
